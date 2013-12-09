@@ -1,6 +1,5 @@
 *.py[cod]
 
-
 # C extensions
 *.so
 
@@ -34,8 +33,4 @@ nosetests.xml
 # Mr Developer
 .mr.developer.cfg
 .project
-.pydevprojet
-sudo apt-get install git-core git-doc
-git config --global user.name "padmakani"
-
-
+.pydevproject
