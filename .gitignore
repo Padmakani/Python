@@ -33,8 +33,7 @@ nosetests.xml
 # Mr Developer
 .mr.developer.cfg
 .project
-.pydevproject
-$ apt-get install git
-$ yum install git
-$ cd /usr/ports/devel/git
+.pydevproje
+sudo apt-get install git-core git-doc
+
 
