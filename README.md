@@ -42,6 +42,7 @@ Running Your First Program
 
  Exercise 1: A Good First Program
  
+
  Exercise 2: Comments And Pound Characters 
   
  Exercise 3: Numbers And Math
