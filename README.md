@@ -4,6 +4,12 @@ Hi ,
 
 Here I have attached the respective program for below ten exercises.
 
+Why Python. There are many high-level languages. The language you will be learning is
+Python. Python is one of the easiest languages to learn and use, while at the same time being very powerful:
+It is used by many of the most highly productive professional programmers. A few of the places that use
+Python extensively are Google, the New York Stock Exchange, Industrial Light and Magic, .... Also Python
+is a free language! If you have your own computer, you can download it from the Internet.
+
  Writing Your First Python Program
 
     Create a folder called PythonPrograms on your C:\ drive. You will be storing all your Python programs in this folder.
