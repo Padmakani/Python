@@ -1,11 +1,11 @@
-## Example 2: Using recursion
+## Example 1: Using recursion
 def fib(n):
  if n==1 or n==2:
   return 1
  return fib(n-1)+fib(n-2)
 print fib(7)
 
-## Example 1: Using looping technique
+## Example 2: Using looping technique
 def fib(n):
  a,b = 1,1
  for i in range(n-1):
