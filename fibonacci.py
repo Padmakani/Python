@@ -5,7 +5,7 @@ def fib(n):
  return fib(n-1)+fib(n-2)
 print fib(7)
 
-## Example 2: Using looping technique
+##Using looping technique
 def fib(n):
  a,b = 1,1
  for i in range(n-1):
