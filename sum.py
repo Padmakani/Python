@@ -1,4 +1,4 @@
-
+#sum of the numbers
 def sum( arg1, arg2, arg3 , arg4):
    # Add both the parameters and return them."
    total = (arg1 + arg2 + arg3 + arg4) 
