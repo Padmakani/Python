@@ -8,4 +8,3 @@ def sum( arg1, arg2, arg3 ):
 # Now you can call sum function
 total = sum( 1, 2, 3 );
 
-total
