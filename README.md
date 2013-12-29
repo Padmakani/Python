@@ -365,11 +365,3 @@ print fib(7)
 
 output:
 13
-
-
-
-
-
-
-
-
