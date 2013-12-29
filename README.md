@@ -293,4 +293,83 @@ I'll do a list:
   * Grass
 The above program is just print the characters.
  
+1.average.py
+# Function definition is here
+def sum( arg1, arg2, arg3 ):
+   # Add both the parameters and return them."
+   total = (arg1 + arg2 + arg3) /3
+   print "average of the 3 numbers : ", total
+   return total;
+
+# Now you can call sum function
+total = sum( 1, 2, 3 );
+
+output:
+average of the 3 numbers : 6
+
+
+2.Sum.py
+def sum( arg1, arg2, arg3 , arg4):
+   # Add both the parameters and return them."
+   total = (arg1 + arg2 + arg3 + arg4)
+   print "sum of the numbers : ", total
+   return total;
+
+# Now you can call sum function
+total = sum( 2, 4, 6, 7 );
+
+Output:
+Sum of the numbers : 19
+
+3.sort.py
+
+def binarys(array, num, minlen, maxlen):
+    key = (minlen+maxlen)/2
+    if num == array[key]:
+        return key
+    elif num<array[key]:
+        return binarys(array, num, minlen, key-1)
+    elif num>array[key]:
+        return binarys(array, num, minlen+1, key)
+    else:
+        return NOT_FOUND
+
+A =[3,4,5,6]
+
+result = binarys(A, 5, 1, len(A))
+
+print result
+
+4.fibonacci.py
+
+
+The Fibonacci numbers are the integer sequence 0, 1, 1, 2, 3, 5, 8, 13, 21, ..., in which each item is formed by adding the previous two. The sequence can be defined recursively by
+
+    F(n) = \begin{cases} 0 & n = 0 \\ 1 & n = 1 \\ F(n-1)+F(n-2) & n > 1 \\ \end{cases} . 
+        
+
+## Example 1: Using recursion
+def fib(n):
+ if n==1 or n==2:
+  return 1
+ return fib(n-1)+fib(n-2)
+print fib(7)
+
+## Example 2: Using looping technique
+def fib(n):
+ a,b = 1,1
+ for i in range(n-1):
+  a,b = b,a+b
+ return a
+print fib(7)
+
+output:
+13
+
+
+
+
+
+
+
 
