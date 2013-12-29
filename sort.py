@@ -1,4 +1,4 @@
-
+#sorted list of numbers 
 def binarys(array, num, minlen, maxlen):
     key = (minlen+maxlen)/2
     if num == array[key]:
